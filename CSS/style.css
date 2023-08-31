@@ -1,0 +1,17 @@
+html, body {
+    margin: 0px;
+    height: 100%;
+}
+
+.header{
+    height: 100px;
+    text-align: center;
+    font-family: 'Alegreya', serif;
+}
+
+.background{
+    background-image: url(/pictures/20230723_103230.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:100%;
+    }
