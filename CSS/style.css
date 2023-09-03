@@ -4,6 +4,10 @@ html, body {
     scroll-behavior: smooth;
 }
 
+h2{
+    text-align: center;
+}
+
 .header {
     height: 100px;
     width: 100%;
@@ -17,6 +21,7 @@ html, body {
     border-bottom: solid;
     padding-bottom: 10px;
 }
+
 
 .background {
     background-image: url(/pictures/20230723_103230.jpg);
@@ -35,11 +40,29 @@ html, body {
 
 }
 
-.photos{
+.photos {
     text-align: right;
 }
 
 .example-photo {
     max-width: 20%;
 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.feature{
+    font-size: 15px;
 }
