@@ -4,9 +4,21 @@ html, body {
     scroll-behavior: smooth;
 }
 
-h2{
+h2 {
     text-align: center;
 }
+
+/* #section-1 {
+    min-height: 800px;
+}
+
+#section-2 {
+    min-height: 800px;
+}
+
+#section-3 {
+    min-height: 800px;
+} */
 
 .header {
     height: 100px;
@@ -40,8 +52,24 @@ h2{
 
 }
 
+.description {
+    margin-top: 100px
+}
+
+.features {
+    margin-top: 100px
+}
+
+.activities {
+    margin-top: 100px
+}
+
 .photos {
     text-align: right;
+}
+
+.photos-activities {
+    text-align: center
 }
 
 .example-photo {
@@ -63,6 +91,6 @@ h2{
 }
 
 
-.feature{
+.feature {
     font-size: 15px;
 }
