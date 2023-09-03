@@ -34,6 +34,10 @@ h2 {
     padding-bottom: 10px;
 }
 
+#map {
+    height: 100%;
+}
+
 
 .background {
     background-image: url(/pictures/20230723_103230.jpg);
