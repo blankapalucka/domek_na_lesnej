@@ -1,0 +1,29 @@
+.button1 {
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+    border: none;
+    position: fixed;
+    right: 80px;
+    top: 60px;
+    border-radius: 150px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+}
+
+.button2 {
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+    border: none;
+    left: 80px;
+    top: 60px;
+    border-radius: 150px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+}
+
