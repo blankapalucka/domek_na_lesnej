@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Nunito:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
 
 html,
 body {
@@ -12,9 +13,13 @@ h2 {
     text-align: center;
 }
 
-/* #section-1 {
+#section-1 {
     min-height: 800px;
-}
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding-top: 50px;
+} 
 
 #section-2 {
     min-height: 800px;
@@ -22,7 +27,7 @@ h2 {
 
 #section-3 {
     min-height: 800px;
-} */
+} 
 
 .header {
     display: flex;
@@ -65,7 +70,6 @@ h2 {
 .background {
     background-image: url(/pictures/20230723_103230.jpg);
     height: 100%;
-
     /* position: relative;
     top:0; */
     background-repeat: no-repeat;
@@ -82,8 +86,16 @@ h2 {
 
 }
 
-.description {
-    margin-top: 100px
+.introduction {
+    /* margin-top: 100px; */
+    padding: 10px 10px;
+    justify-content: center;
+    font-family: 'Alegreya', serif;
+    font-size: 25px;
+    text-align:left;
+
+
+
 }
 
 .features {
@@ -94,16 +106,16 @@ h2 {
     margin-top: 100px
 }
 
-.photos {
+/* .photos {
     text-align: right;
-}
+    } */
 
 .photos-activities {
     text-align: center
 }
 
 .example-photo {
-    max-width: 20%;
+    max-width: 95%;
 
 }
 
