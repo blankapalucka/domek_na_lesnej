@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Nunito:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
-@import url('/CSS/buttons.css');
+@import url('./buttons.css');
 
 html,
 body {
@@ -69,7 +69,8 @@ h2 {
 
 
 .background {
-    background-image: url(/pictures/20230723_103230.jpg);
+    /* background-image: url(/pictures/20230723_103230.jpg); */
+    background-image: url(./../pictures/20230723_103230.jpg);
     height: 100%;
     /* position: relative;
     top:0; */
@@ -87,23 +88,20 @@ h2 {
 
 }
 
-.introduction {
+.o-nas {
     /* margin-top: 100px; */
     padding: 10px 10px;
     justify-content: center;
     font-family: 'Alegreya', serif;
     font-size: 25px;
     text-align:left;
-
-
-
 }
 
-.features {
+.domek {
     margin-top: 100px
 }
 
-.activities {
+.okoliczne-atrakcje {
     margin-top: 100px
 }
 
@@ -111,8 +109,9 @@ h2 {
     text-align: right;
     } */
 
-.photos-activities {
-    text-align: center
+.zdjecia-okoliczne-atrakcje{
+    text-align: center;
+    max-width: 100px;
 }
 
 .example-photo {
@@ -138,3 +137,9 @@ h2 {
     font-size: 15px;
 }
 
+.kontakt{
+    margin-top:5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
