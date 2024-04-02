@@ -24,3 +24,8 @@
 // }
 
 // initMap();
+
+function myFunction() { console.log("działa") 
+document.getElementById("myDropdown").classList.toggle("show");
+
+}
