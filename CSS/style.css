@@ -181,3 +181,10 @@ th {
 
   /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd;}
+
+.zdjecia-okoliczne-atrakcje{
+    display:flex;
+flex-direction: row;
+align-content: space-around;
+
+}
