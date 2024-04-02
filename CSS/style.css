@@ -142,4 +142,14 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
+}
+
+.cennik{
+    display:flex;
+    justify-content: center;
+}
+
+table, td, th{
+    border: 1px solid;
 }
