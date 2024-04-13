@@ -116,8 +116,9 @@ h2 {
 }
 
 .example-photo {
-    max-width: 95%;
-
+    max-width: 70%;
+    margin-top: 20px;
+    
 }
 
 .grid-container {
@@ -163,10 +164,11 @@ th {
     position: absolute;
     background-color: #f1f1f1;
     min-width: 60px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     font-size: 30px;
-  }
+}
+
 .show {
     display: block;
 }
@@ -177,14 +179,25 @@ th {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
+}
 
-  /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
 
-.zdjecia-okoliczne-atrakcje{
-    display:flex;
-flex-direction: row;
-align-content: space-around;
+.okoliczne-atrakcje-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-width: 1000px;
+    width: 100%;
+    justify-content: space-around;
+}
 
+.atrakcja {
+    /* display:flex;
+    flex-direction: column; */
+    width: 400px;
 }
