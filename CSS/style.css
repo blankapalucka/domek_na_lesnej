@@ -5,7 +5,7 @@
 
 html,
 body {
-    margin: 0px;
+    margin: 10px;
     height: 100%;
     scroll-behavior: smooth;
 }
@@ -38,7 +38,7 @@ h2 {
     padding-top: 50px;
     width: 100%;
     font-size: 100px;
-    color: black;
+    color: white;
     /* position: fixed; */
     top: 0;
     text-align: center;
@@ -51,6 +51,8 @@ h2 {
 
 .title {
     align-self: center;
+    color: white;
+    font-size: 80px;
 }
 
 .hamburger {
@@ -60,7 +62,7 @@ h2 {
 .hamburger-menu {
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color:white;
     margin: 6px 0;
 }
 
@@ -77,6 +79,7 @@ h2 {
     top:0; */
     background-repeat: no-repeat;
     background-size: 100%;
+    
 }
 
 .scroll-link {
@@ -84,7 +87,7 @@ h2 {
     min-height: 50px;
     min-width: 50px;
     position: relative;
-    top: 50%;
+    top: 65%;
     left: 50%;
 
 }
@@ -94,7 +97,7 @@ h2 {
     padding: 10px 10px;
     justify-content: center;
     font-family: 'Alegreya', serif;
-    font-size: 25px;
+    font-size: 15px;
     text-align: left;
 }
 
@@ -143,7 +146,7 @@ h2 {
     margin-top: 5%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -200,4 +203,9 @@ th {
     /* display:flex;
     flex-direction: column; */
     width: 400px;
+}
+
+.okoliczne-atrakcje-tytuł{
+    text-align:left;
+    padding-left: 40px;
 }
