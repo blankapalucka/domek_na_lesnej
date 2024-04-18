@@ -25,10 +25,10 @@ h2 {
 #section-2 {
     min-height: 800px;
 }
-
+/* 
 #section-3 {
     min-height: 800px;
-}
+} */
 
 .header {
     display: flex;
@@ -194,6 +194,7 @@ th {
     min-width: 1000px;
     width: 100%;
     justify-content: space-around;
+    
 }
 
 .atrakcja {
@@ -211,3 +212,14 @@ th {
     margin-top: 200px;
     text-align: center;
 }
+
+div.scroll-container {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
