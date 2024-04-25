@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
 @import url('./buttons.css');
 @import url('./scrollbar.css');
+@import url('./wrap.css');
 
 html,
 body {
