@@ -8,7 +8,7 @@
     border: none;
     position: fixed;
     right: 60px;
-    top: 60px;
+    top: 50px;
     border-radius: 150px;
     font-family: 'Inter', sans-serif;
     font-family: 'Nunito', sans-serif;
@@ -24,8 +24,6 @@
     margin-top: 10px;
     margin-bottom: 10px;
     color: black;
-    border: none;
-    ;
     border: none;
     left: 80px;
     top: 60px;

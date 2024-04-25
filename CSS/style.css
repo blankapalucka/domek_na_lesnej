@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Nunito:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
 @import url('./buttons.css');
+@import url('./scrollbar.css');
 
 html,
 body {
@@ -101,6 +102,7 @@ h2 {
     font-size: 15px;
     text-align: left;
 }
+
 
 .okoliczne-atrakcje {
     margin-top: 100px
