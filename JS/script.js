@@ -30,7 +30,10 @@ window.onclick = function (event) {
     if (event.target.matches('.hamburger')) {
         document.getElementById("myDropdown").classList.toggle("show");
     } else {
-        document.getElementById("myDropdown").classList.toggle("show");
+        let dropdownElement = document.getElementById("myDropdown");
+        if (dropdownElement.classList.contains("show")) {
+            dropdownElement.classList.toggle("show");
+        }
     }
 }
 
