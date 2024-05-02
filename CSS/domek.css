@@ -1,0 +1,20 @@
+.domek-paragraf {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.zdjęcia-domek {
+    display: flex;
+    text-align: center;
+}
+
+.domek-opis-i-zdjecia {
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.domek-buttons{
+    text-align: center;
+
+}
