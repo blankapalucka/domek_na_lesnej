@@ -1,20 +1,43 @@
 .domek-paragraf {
     margin-top: 50px;
     text-align: center;
+    font-family: 'Alegreya', serif;
 }
 
 .zdjęcia-domek {
     display: flex;
-    text-align: center;
+   justify-content: center;
+}
+
+.zdjęcia-domek-item{
+    max-height: 10%;
+    /* max-width: 25%; */
+    display: inline-block;
+    padding: 0%;
 }
 
 .domek-opis-i-zdjecia {
     display: flex;
+    flex-direction: row;
     margin-top: 50px;
+    justify-content: center;
+    font-family: 'Alegreya', serif;
+}
+
+.domek-i-opis-item{
+    width:50%;
     text-align: center;
 }
 
 .domek-buttons{
     text-align: center;
 
+}
+.example-photo-no-margin{
+    max-width: 98%;
+    margin-top: 0px;
+}
+
+.text-centered {
+    text-align: center;
 }
