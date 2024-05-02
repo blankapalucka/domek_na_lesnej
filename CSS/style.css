@@ -276,3 +276,31 @@ div.scroll-container {
 div.scroll-container img {
     padding: 10px;
 }
+
+.myImgTopDown {
+    animation: transitionInTopDown 2s ease-in-out;
+}
+
+.myImgBottomUp {
+    animation: transitionInBottomUp 2s ease-in-out;
+}
+
+@keyframes transitionInTopDown {
+    from {
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
+
+@keyframes transitionInBottomUp {
+    from {
+        clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+    }
+
+    to {
+        clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+    }
+}

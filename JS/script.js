@@ -37,4 +37,22 @@ window.onclick = function (event) {
     }
 }
 
+const startAnimation = (entries, observer) => {
+    entries.forEach(entry => {
+        if (entry.target.classList.contains("animateTopDown") && !entry.target.classList.contains("myImgTopDown")) {
+                entry.target.classList.toggle("myImgTopDown", entry.isIntersecting);
+        }
+        if (entry.target.classList.contains("animateBottomUp") && !entry.target.classList.contains("myImgBottomUp")) {
+            entry.target.classList.toggle("myImgBottomUp", entry.isIntersecting);    
+        } 
+    });
+};
+
+const observer = new IntersectionObserver(startAnimation);
+const options = { root: null, rootMargin: '0px', threshold: 1 };
+
+document.querySelectorAll('.example-photo').forEach(el => {
+    observer.observe(el, options);
+});
+
 
