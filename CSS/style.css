@@ -14,7 +14,7 @@ body {
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
 }
 
 #section-1 {
@@ -107,8 +107,28 @@ h2 {
 }
 
 .zdjęcia-o-nas {
-    display:flex;
-    justify-content:right;
+    display: flex;
+    justify-content: right;
+}
+
+.zdjęcia-o-nas2 {
+    display: flex;
+    justify-content: left;
+
+}
+
+.zdjecia-o-nas-item {
+    max-width: 25%;
+    display: inline-block;
+    padding: 0%;
+
+}
+
+
+.zdjecia-o-nas-item2 {
+    max-width: 25%;
+    display: inline-block;
+    padding: 0%;
 }
 
 .okoliczne-atrakcje {
@@ -119,9 +139,13 @@ h2 {
     text-align: right;
     } */
 
-   .o-nas-druga-czesc{
-    text-align:right;
-   }
+.o-nas-druga-czesc {
+    margin-top: 10px;
+    text-align: right;
+    max-width: 80%;
+    font-size: 20px;
+    margin-left: 20%;
+}
 
 .zdjecia-okoliczne-atrakcje {
     text-align: center;
@@ -129,9 +153,14 @@ h2 {
 }
 
 .example-photo {
-    max-width: 70%;
+    max-width: 98%;
     margin-top: 20px;
-    
+
+}
+
+.o-nas-opis {
+    max-width: 80%;
+    font-size: 20px;
 }
 
 .grid-container {
