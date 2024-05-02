@@ -207,11 +207,13 @@ th {
     /* display:flex;
     flex-direction: column; */
     width: 400px;
+    font-family: 'Alegreya', serif;
 }
 
 .okoliczne-atrakcje-tytuł{
     text-align:left;
     padding-left: 40px;
+    font-family: 'Alegreya', serif;
 }
 
 .socials{
