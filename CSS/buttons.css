@@ -33,6 +33,25 @@
     font-weight: 300;
 }
 
+.button-zobacz-atrakcje{
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    padding: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1200px;
+    color: black;
+    border: none;
+    left: 80px;
+    top: 60px;
+    border-radius: 150px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+}
+
 a {
     text-decoration: none;
 
