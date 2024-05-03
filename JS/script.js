@@ -55,4 +55,18 @@ document.querySelectorAll('.example-photo').forEach(el => {
     observer.observe(el, options);
 });
 
+// Disappear hamburger menu when scrolled down
+const disappearAnimation = (entries, observer) => {
+    entries.forEach(entry => {
+        const dropdown = document.getElementById("myDropdown")
+        if (dropdown.classList.contains("show")) {
+            dropdown.classList.toggle("show");
+        }
+    })
+}
+const hamburgerIntersectionObserver = new IntersectionObserver(disappearAnimation);
+document.querySelectorAll("div.o-nas").forEach(el => {
+    hamburgerIntersectionObserver.observe(el, options);
+})
+
 

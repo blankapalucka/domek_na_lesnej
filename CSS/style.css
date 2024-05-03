@@ -208,19 +208,16 @@ th {
     padding-top:10%;
     height: 100vh;
     background-color: #f1f1f1;
-    opacity: 0.3;
+    opacity: 0;
+
     min-width: 400px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     font-size: 20px;
-    /* font-family: 'Alegreya', serif;
-    font-family: 'Inter', sans-serif; */
+    
     font-family: 'Nunito', sans-serif;
     z-index: -1;
-    transition: visibility 0s, opacity 0.5s linear;
-
+    transition: z-index 1s, opacity 0.5s linear
 }
-
-
 
 .show {
     opacity: 0.8;
