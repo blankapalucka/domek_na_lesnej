@@ -5,6 +5,7 @@
 @import url('./scrollbar.css');
 @import url('./wrap.css');
 @import url('./domek.css');
+@import url('./cennik.css');
 
 html,
 body {
@@ -189,10 +190,6 @@ h2 {
 
 }
 
-.cennik {
-    display: flex;
-    justify-content: center;
-}
 
 table,
 td,
