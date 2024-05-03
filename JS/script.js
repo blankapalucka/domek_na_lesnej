@@ -27,7 +27,7 @@
 
 // // Open/Close the dropdown menu if the user clicks on it or outside of it
 window.onclick = function (event) {
-    if (event.target.matches('.hamburger')) {
+    if (event.target.matches('.hamburger') || event.target.matches('.hamburger-menu')) {
         document.getElementById("myDropdown").classList.toggle("show");
     } else {
         let dropdownElement = document.getElementById("myDropdown");
