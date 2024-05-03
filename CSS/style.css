@@ -304,3 +304,14 @@ div.scroll-container img {
         clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
     }
 }
+
+.time-flex{
+    display: flex;
+    flex-direction: row;
+   
+}
+.time{
+    margin-left: 20px;
+  padding-top: 5px;
+
+}
