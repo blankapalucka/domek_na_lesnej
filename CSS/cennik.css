@@ -1,6 +1,11 @@
-.cennik {
+/* .cennik {
     display: flex;
     flex-direction: row;
     justify-content: center;
     
+} */
+
+.cennik{
+    max-width: 30%;
+    margin: auto;
 }
