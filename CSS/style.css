@@ -125,7 +125,6 @@ h2 {
 
 }
 
-
 .zdjecia-o-nas-item2 {
     max-width: 25%;
     display: inline-block;
@@ -135,10 +134,6 @@ h2 {
 .okoliczne-atrakcje {
     margin-top: 100px
 }
-
-/* .photos {
-    text-align: right;
-    } */
 
 .o-nas-druga-czesc {
     margin-top: 10px;
@@ -162,6 +157,15 @@ h2 {
 .o-nas-opis {
     max-width: 80%;
     font-size: 20px;
+}
+
+
+.zobacz-okolice-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    padding-right: 30px;
 }
 
 .grid-container {
