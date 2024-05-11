@@ -157,7 +157,7 @@ h2 {
     /* margin-left: 20%; */
     text-align: justify;
     font-size: 20px;
-   
+
 }
 
 .zdjecia-okoliczne-atrakcje {
@@ -285,7 +285,7 @@ th {
 
 
 div.scroll-container {
-    background-color: f9f8f2;
+    background-color: #f9f8f2;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
@@ -341,4 +341,16 @@ div.scroll-container img {
 
 .empty-div {
     min-height: 30px;
+}
+
+.modal-body a {
+    color: #6f4f33;
+}
+
+.modal-body a:visited {
+    color: #6f4f33;
+}
+
+.modal-body a:hover {
+    color: #6f4f33;
 }
