@@ -1,13 +1,36 @@
-
-.footer {
-  /* position: fixed; */
+.footer-flex {
   display: flex;
   flex-wrap: row;
   justify-content: space-around;
+  text-align: left;
+}
+
+
+.footer {
+  /* position: fixed; */
+  font-family: 'Nunito', sans-serif;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color:#8f6747;
+  background-color: #8f6747;
   color: white;
-  text-align: center;
+  text-align: left;
+  padding: 40px;
+}
+
+
+.footer-regulamin {
+
+  left: 0;
+  bottom: 0;
+   background-color: #8f6747;
+  color: white;
+  text-align: left;
+  font-family:  'Nunito', sans-serif;
+  padding-left: 100px;
+}
+
+.socials {
+  /* margin-top: 20px; */
+  text-align: left;
 }
