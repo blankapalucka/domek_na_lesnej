@@ -53,14 +53,14 @@
      
 }
 
-a {
+button > a {
     text-decoration: none;
-
 }
-a:visited{
+
+button > a:visited{
     color: black;
 }
 
-a:hover {
+button > a:hover {
     color:black;
 }
