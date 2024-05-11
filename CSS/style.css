@@ -12,10 +12,13 @@ body {
     margin: 10px;
     height: 100%;
     scroll-behavior: smooth;
+    background-color: #f9f8f2;
 }
 
 h2 {
     text-align: left;
+    font-family: 'Pecita';
+    font-size: 60px;
 }
 
 #section-1 {
@@ -57,7 +60,8 @@ h2 {
 .title {
     align-self: center;
     color: white;
-    font-size: 80px;
+    font-size: 50px;
+    /* font-family: 'Alegreya';  */
 }
 
 .hamburger {
@@ -104,7 +108,8 @@ h2 {
     justify-content: center;
     font-family: 'Alegreya', serif;
     font-size: 15px;
-    text-align: left;
+    /* text-align: left; */
+    text-align: justify;
 }
 
 .zdjęcia-o-nas {
@@ -138,9 +143,11 @@ h2 {
 .o-nas-druga-czesc {
     margin-top: 10px;
     text-align: right;
-    max-width: 80%;
+    /* max-width: 80%; */
     font-size: 20px;
-    margin-left: 20%;
+    /* margin-left: 20%; */
+    text-align: justify;
+    font-size: 30px;
 }
 
 .zdjecia-okoliczne-atrakcje {
@@ -155,8 +162,8 @@ h2 {
 }
 
 .o-nas-opis {
-    max-width: 80%;
-    font-size: 20px;
+    /* max-width: 80%; */
+    font-size: 30px;
 }
 
 
@@ -175,7 +182,7 @@ h2 {
 }
 
 .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color:f9f8f2;
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -206,7 +213,7 @@ th {
     position: fixed;
     top: 15px;
     left: 15px;
-    padding-top:10%;
+    padding-top: 10%;
     height: 100vh;
     background-color: #f1f1f1;
     opacity: 0;
@@ -214,7 +221,7 @@ th {
     min-width: 400px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     font-size: 20px;
-    
+
     font-family: 'Nunito', sans-serif;
     z-index: -1;
     transition: z-index 1s, opacity 0.5s linear
@@ -246,6 +253,7 @@ th {
     min-width: 1000px;
     width: 100%;
     justify-content: space-around;
+    background-color: #f9f8f2;
 
 }
 
@@ -259,7 +267,7 @@ th {
 .okoliczne-atrakcje-tytuł {
     text-align: left;
     padding-left: 40px;
-    font-family: 'Alegreya', serif;
+    font-family: 'Alegraya' serif;
 }
 
 .socials {
@@ -268,7 +276,7 @@ th {
 }
 
 div.scroll-container {
-    background-color: white;
+    background-color: f9f8f2;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
@@ -318,7 +326,6 @@ div.scroll-container img {
 
 }
 
-.atrakcja-margines{
+.atrakcja-margines {
     margin-top: 35px;
 }
-
