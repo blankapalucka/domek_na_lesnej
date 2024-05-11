@@ -6,6 +6,7 @@
 @import url('./wrap.css');
 @import url('./domek.css');
 @import url('./cennik.css');
+@import url('./modal.css');
 
 html,
 body {
@@ -232,7 +233,7 @@ th {
 }
 
 .show {
-    opacity: 0.8;
+    opacity: 1;
     z-index: 1;
 }
 
