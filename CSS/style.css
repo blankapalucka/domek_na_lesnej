@@ -142,7 +142,8 @@ h2 {
 }
 
 .okoliczne-atrakcje {
-    margin-top: 100px
+    padding-top: 100px;
+    background-color: #f9f8f2;;
 }
 
 .o-nas-druga-czesc {
@@ -188,7 +189,7 @@ h2 {
 }
 
 .grid-item {
-    background-color:f9f8f2;
+    background-color:#f9f8f2;
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -274,6 +275,8 @@ th {
     text-align: left;
     padding-left: 40px;
     font-family: 'Nunito', serif;
+    background-color: #f9f8f2;;
+    margin-bottom: 0px;
 }
 
 .socials {
@@ -334,4 +337,8 @@ div.scroll-container img {
 
 .atrakcja-margines {
     margin-top: 35px;
+}
+
+.empty-div{
+    min-height: 30px;
 }

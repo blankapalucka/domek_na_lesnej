@@ -22,89 +22,230 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/pecita" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
 </head>
 
 <div id="section-4">
     <div class="dla-dzieci">
-        <h2>Dla dzieci</h2>
+        <h2 class="okoliczne-atrakcje-tytuł">Dla dzieci</h2>
         <div class="okoliczne-atrakcje">
             <div class="okoliczne-atrakcje-flex">
-                <div class="atrakcja">
-                    <h3>Podwórko Przygód</h3>
+                <div class="atrakcja" data-toggle="modal" data-target="#podworkoprzygod">
+                    <h3>Podwórko przygód</h3>
+                    <div class="empty-div">
+
+                    </div>
+
                     <div>
-                        Domek otoczony jest fantastycznym ogrodem. Próżno szukać tam trawy przyciętej co do
-                        milimetra, ale mamy za to dużo zieloności - czasami bardziej lub mniej okiełznanej,
-                        zagajnik z owocowymi krzewami i drzewami. Mamy domek na drzewie, huśtawkę i hamak.
-                        Wszystko to daje niezliczoną ilość możliwości na zabawę w chowanego, w berka czy w wiele
-                        innych zabaw, które nie mieszczą się w głowie dorosłym!
+                        <img class="example-photo" src="pictures/podworkoprzygod.jpg" width="392" height="220,5"
+                            alt="|">
                     </div>
-                    <div class="time-flex">
-                        <img class="example-photo" src="pictures/domeknadrzewie.jpeg" alt="|">
-                    </div>
+
                 </div>
-                <div class="atrakcja">
-                    <h3>Ogród Zoologiczny Leśne Zacisze </h3>
+
+                <div class="modal fade" id="podworkoprzygod" tabindex="-1" role="dialog"
+                    aria-labelledby="podworkoprzygodLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="podworkoprzygod">Podwórko przygód </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Domek otoczony jest fantastycznym ogrodem. Próżno szukać tam trawy przyciętej co do
+                                milimetra, ale mamy za to dużo zieloności - czasami bardziej lub mniej okiełznanej,
+                                zagajnik z owocowymi krzewami i drzewami. Mamy domek na drzewie, huśtawkę i hamak.
+                                Wszystko to daje niezliczoną ilość możliwości na zabawę w chowanego, w berka czy w wiele
+                                innych zabaw, które nie mieszczą się w głowie dorosłym!
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- </div> -->
+                <div class="atrakcja" data-toggle="modal" data-target="#ogrodzoologiczny">
+                    <h3>Ogród Zoologiczny Leśne Zacisze</h3>
                     <div class="time-flex"><img src="pictures/car.png" width="30" height="30">
-                        <div class="time"> 15 min</div>
+                        <div class="time">15 min </div>
                     </div>
-                    Odkryj urok Leśnego Zacisza w Wygwizdowie - ogrodu zoologicznego, gdzie możesz spotkać ponad
-                    100 gatunków zwierząt z 6 kontynentów. To miejsce, które oczaruje zarówno małych, jak i
-                    dużych miłośników przyrody. Przyjdź i doświadcz niezwykłych przygód w Leśnym Zaciszu!
                     <div>
-                        <img class="example-photo" src="pictures/lewafrykanski.jpg" alt="|">
+                        <img class="example-photo" src="pictures/zoo.jpg" width="392" height="220,5" alt="|">
+                    </div>
+                    <div class="modal fade" id="ogrodzoologiczny" tabindex="-1" role="dialog"
+                        aria-labelledby="ogrodzoologicznyLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="ogrodzoologicznyLabel">Ogród Zoologiczny Leśne Zacisze
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Odkryj urok Leśnego Zacisza w Wygwizdowie - ogrodu zoologicznego, gdzie możesz
+                                    spotkać ponad 100 gatunków zwierząt z 6 kontynentów. To miejsce, które oczaruje
+                                    zarówno małych, jak i dużych miłośników przyrody. Przyjdź i doświadcz niezwykłych
+                                    przygód w Leśnym Zaciszu!
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-                <div class="atrakcja">
-                    <h3>Muzeum Zabawek i Zabawy </h3>
-                    <div class="time-flex"> <img src="pictures/car.png" width="30" height="30">
+                <div class="atrakcja" data-toggle="modal" data-target="#muzeumzabawek">
+                    <h3>Muzeum Zabawek i Zabawy</h3>
+                    <div class="time-flex"><img src="pictures/car.png" width="30" height="30">
                         <div class="time"> 29 min</div>
                     </div>
-                    Kieleckie muzeum to doskonałe miejsce dla dzieci i dorosłych, zapewniające sentymentalną
-                    podróż w świat dziecięcych marzeń i fantazji. Znajduje się tam kilka tysięcy eksponatów, w
-                    tym historyczne zabawki.. Dzieci mogą zobaczyć zabawki swoich przodków, polskie i
-                    zagraniczne zabawki etnograficzne, lalki teatralne, pluszaki, modele pojazdów oraz inne
-                    unikatowe eksponaty. Muzeum oferuje również interaktywne wystawy, gdzie najmłodsi mogą
-                    dotknąć eksponatów oraz bawić się w specjalnie przygotowanym kąciku zabaw. Dla starszych
-                    dzieci organizowane są lekcje muzealne, teatralne i warsztaty, w tym ciekawe zajęcia w
-                    Aptece Wyobraźni, nawiązujące do słów Alberta Einsteina: "rzeczą ważniejszą od wiedzy jest
-                    wyobraźnia".
-                    <div class="time-flex">
-                        <img class="example-photo" src="pictures/muzeumzabawyizabawek.jpg" alt="|">
+
+                    <div>
+                        <img class="example-photo" src="pictures/muzeumzabawek.jpg" width="392" height="220,5" alt="|">
+                    </div>
+                    <div class="modal fade" id="muzeumzabawek" tabindex="-1" role="dialog"
+                        aria-labelledby="muzeumzabawekLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="muzeumzabawekLabel">Muzeum Zabawek i Zabawy</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Kieleckie muzeum to doskonałe miejsce dla dzieci i dorosłych, zapewniające
+                                    sentymentalną podróż w świat dziecięcych marzeń i fantazji. Znajduje się tam kilka
+                                    tysięcy eksponatów, w tym historyczne zabawki.. Dzieci mogą zobaczyć zabawki swoich
+                                    przodków, polskie i zagraniczne zabawki etnograficzne, lalki teatralne, pluszaki,
+                                    modele pojazdów oraz inne unikatowe eksponaty. Muzeum oferuje również interaktywne
+                                    wystawy, gdzie najmłodsi mogą dotknąć eksponatów oraz bawić się w specjalnie
+                                    przygotowanym kąciku zabaw. Dla starszych dzieci organizowane są lekcje muzealne,
+                                    teatralne i warsztaty, w tym ciekawe zajęcia w Aptece Wyobraźni, nawiązujące do słów
+                                    Alberta Einsteina: "rzeczą ważniejszą od wiedzy jest wyobraźnia".
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-                <div class="atrakcja">
-                    <h3> Bizony w Kurozwękach</h3>
-                    <div class="time-flex"> <img src="pictures/car.png" width="30" height="30">
-                        <div class="time"> 35min</div>
-                    </div>
-
-                    Wyjątkowe miejsce w Kurozwękach, przy Pałacu, gdzie możesz odkryć fascynujący świat bizonów
-                    amerykańskich. Stado bizonów można podziwiać w naturalnych warunkach, a jednocześnie w
-                    historycznym otoczeniu. Zwiedzanie hodowli dostępne jest zarówno pieszo, jak i wjeżdżając do
-                    wnętrza zagrody westernowym wozem "safari-bizon". Podczas zwiedzania możesz wysłuchać
-                    opowieści przewodnika o historii tych imponujących zwierząt oraz dowiedzieć się
-                    interesujących anegdot z nimi związanych.
-
-                    <div class="time-flex"><img class="example-photo" src="pictures/bizony.JPG" alt="|"></div>
-                </div>
-                <div class="atrakcja">
-                    <h3>Koziołek Matołek w Centrum Bajki w Pacanowie</h3>
+                <div class="atrakcja atrakcja-margines" data-toggle="modal" data-target="#parkrozrywki">
+                    <h3> Park Rozrywki i Miniatur Sabat Krajno </h3>
                     <div class="time-flex"><img src="pictures/car.png" width="30" height="30">
-                        <div class="time"> 50 min </div>
+                        <div class="time"> 31min </div>
                     </div>
 
-                    Odwiedź magiczne Centrum Bajki w Pacanowie, gdzie świat baśni staje się rzeczywistością.
-                    Znajdziesz tu interaktywne wystawy, które przeniosą Cię do krainy marzeń i fantazji.
-                    Niezapomnianym punktem programu jest spotkanie z legendarnym Koziołkiem Matołkiem, który
-                    zachwyci dzieci i dorosłych swoim urokiem i humorem.
+                    <div><img class="example-photo" src="pictures/parkminiatursabatkrajno.jpg" width="392"
+                            height="220,5" alt="|"></div>
+                    <div class="modal fade" id="parkrozrywki" tabindex="-1" role="dialog"
+                        aria-labelledby="parkrozrywkiLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="parkrozrywkiLabel"> Park Rozrywki i Miniatur Sabat
+                                        Krajno </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Park Rozrywki i Miniatur Sabat Krajno to jedyny park miniatur w Europie usytuowany
+                                    na wzgórzu. Dzięki temu znakomicie widać panoramę całego obiektu, połacie
+                                    Świętokrzyskiego Parku Narodowego oraz Łysicę. W Alei Miniatur „Wonderful World”
+                                    odwiedzimy miniatury kilkudziesięciu najsłynniejszych miejsc świata. Jest tu również
+                                    Park Linowy, który zbudowany jest na drewnianych palach, dzięki czemu uczestnicy
+                                    zabawy jest w zasięgu wzroku pilnujących bezpieczeństwa instruktorów. Mnóstwo
+                                    rozrywki czeka także na najmłodszych na terenie lunaparku. W skład kompleksu wchodzi
+                                    również kino 6D. O podniebienia gości dba restauracja „Magia Sabatu”, która oprócz
+                                    domowych dań, serwuje przepyszną pizzę z pieca. W zimie działa tu najdłuższy stok
+                                    narciarski w centralnej Polsce z wypożyczalnią sprzętu narciarskiego.
+                                </div>
+                            </div>
+                        </div>
 
-                    <div class="time-flex">
-                        <img class="example-photo" src="pictures/koziolekmatolek.jpg" alt="|">
+                    </div>
+                </div>
+                <div class="atrakcja atrakcja-margines" data-toggle="modal" data-target="#bizony">
+                    <h3>Bizony w Kurozwękach </h3>
+                    <div class="time-flex"><img src="pictures/car.png" width="30" height="30">
+                        <div class="time"> 35 min</div>
+                    </div>
+
+                    <div>
+                        <img class="example-photo" src="pictures/bizon.jpg" alt="|">
+                    </div>
+                    <div class="modal fade" id="bizony" tabindex="-1" role="dialog" aria-labelledby="bizonyLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="bizonyLabel">Bizony w Kurozwękach</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Wyjątkowe miejsce w Kurozwękach, przy Pałacu, gdzie możesz odkryć fascynujący świat
+                                    bizonów amerykańskich. Stado bizonów można podziwiać w naturalnych warunkach, a
+                                    jednocześnie w historycznym otoczeniu. Zwiedzanie hodowli dostępne jest zarówno
+                                    pieszo, jak i wjeżdżając do wnętrza zagrody westernowym wozem "safari-bizon".
+                                    Podczas zwiedzania możesz wysłuchać opowieści przewodnika o historii tych
+                                    imponujących zwierząt oraz dowiedzieć się interesujących anegdot z nimi związanych.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="atrakcja atrakcja-margines" data-toggle="modal" data-target="#koziolek">
+                    <h3>Koziołek Matołek w Centrum Bajki w Pacanowie </h3>
+                    <div class="time-flex"><img src="pictures/car.png" width="30" height="30">
+                        <div class="time"> 50 min</div>
+                    </div>
+
+                    <div>
+                        <img class="example-photo" src="pictures/koziolek.jpg" width="392" height="220,5" alt="|">
+                    </div>
+                    <div class="modal fade" id="koziolek" tabindex="-1" role="dialog" aria-labelledby="koziolekLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="koziolekLabel">Koziołek Matołek w Centrum Bajki w
+                                        Pacanowie </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Odwiedź magiczne Centrum Bajki w Pacanowie, gdzie świat baśni staje się
+                                    rzeczywistością. Znajdziesz tu interaktywne wystawy, które przeniosą Cię do krainy
+                                    marzeń i fantazji. Niezapomnianym punktem programu jest spotkanie z legendarnym
+                                    Koziołkiem Matołkiem, który zachwyci dzieci i dorosłych swoim urokiem i humorem.
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
+
+
+
+
     </div>
 
 </div>
