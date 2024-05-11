@@ -23,6 +23,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/pecita" rel="stylesheet">
 
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 
 
@@ -60,8 +62,8 @@
     na wspólne spotkania na świeżym powietrzu.
     Dla miłośników natury i relaksu przygotowaliśmy także hamak, huśtawkę oraz domek na drzewie.</div>
     <div class="domek-i-opis-item">
-        <img class="example-photo-no-margin" src="pictures/kwiatyjpg"width="200" height="300" alt="|">
-        <img class="example-photo-no-margin" src="pictures/kwiatyjpg" width="200" height="300"alt="|">
+        <img class="example-photo-no-margin" src="pictures/kwiaty.jpg" width="200" height="300" alt="|">
+        <img class="example-photo-no-margin" src="pictures/kwiaty.jpg" width="200" height="300" alt="|">
     </div>
 </div>
 <div class="domek-paragraf">
@@ -76,3 +78,16 @@
     <div><button class="button2"> <a href="cennik.html">Galeria</a></button></div>
     <div><button class="button2"> <a href="cennik.html">Cennik </a></button></div>
 </div>
+
+<div id="footer">
+    This is footer placeholder (should be replaced)
+</div>
+<script defer>
+    $(document).ready(() => {
+        $('#footer').load('./footer.html', () => {
+            console.log('Footer loaded');
+        });
+    });
+</script>
+
+</html>
