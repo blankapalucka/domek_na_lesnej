@@ -267,6 +267,7 @@ th {
 .atrakcja {
     /* display:flex;
     flex-direction: column; */
+    flex: 0 0 30%;
     width: 400px;
     font-family: 'Alegreya', serif;
 }
