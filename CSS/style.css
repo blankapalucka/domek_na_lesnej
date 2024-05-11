@@ -68,6 +68,8 @@ h2 {
 
 .title-nunito {
     font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    padding-left: 40px;
 }
 
 .hamburger {
@@ -154,7 +156,8 @@ h2 {
     font-size: 20px;
     /* margin-left: 20%; */
     text-align: justify;
-    font-size: 30px;
+    font-size: 20px;
+   
 }
 
 .zdjecia-okoliczne-atrakcje {
@@ -169,7 +172,7 @@ h2 {
 
 .o-nas-opis {
     /* max-width: 80%; */
-    font-size: 30px;
+    font-size: 20px;
 
 }
 
@@ -277,6 +280,7 @@ th {
     font-family: 'Nunito', serif;
     background-color: #f9f8f2;;
     margin-bottom: 0px;
+    font-size: 40px;
 }
 
 
