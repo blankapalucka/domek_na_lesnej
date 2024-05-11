@@ -69,6 +69,7 @@ h2 {
 .title-nunito {
     font-family: 'Nunito', sans-serif;
     font-size: 40px;
+    padding-left: 40px;
 }
 
 .hamburger {
