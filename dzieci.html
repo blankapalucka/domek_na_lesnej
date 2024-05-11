@@ -32,8 +32,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-
 </head>
+
+<header id="header"></header>
 
 <div id="section-4">
     <div class="dla-dzieci">
@@ -248,8 +249,11 @@
 </div>
 <script defer>
     $(document).ready(() => {
-        $('#footer').load('./footer.html', () => {
+        $('#footer').load('./templates/footer.html', () => {
             console.log('Footer loaded');
+        });
+        $('#header').load('./templates/header.html', () => {
+            console.log('Header loaded');
         });
     });
 </script>

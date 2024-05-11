@@ -27,7 +27,7 @@
             integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 
-
+<header id="header"></header>
 
 <div class="domek-paragraf"> Zapraszamy do naszego przytulnego domku na wynajem, który oferuje komfortowe warunki dla
     rodziny lub grupy przyjaciół.<br>Ten uroczy domek o powierzchni 55 metrów kwadratowych zapewnia wszystko, czego
@@ -84,8 +84,11 @@
 </div>
 <script defer>
     $(document).ready(() => {
-        $('#footer').load('./footer.html', () => {
+        $('#footer').load('./templates/footer.html', () => {
             console.log('Footer loaded');
+        });
+        $('#header').load('./templates/header.html', () => {
+            console.log('Header loaded');
         });
     });
 </script>
