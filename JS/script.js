@@ -2,11 +2,11 @@
 // // Open/Close the dropdown menu if the user clicks on it or outside of it
 window.onclick = function (event) {
     if (event.target.matches('.hamburger') || event.target.matches('.hamburger-menu')) {
-        document.getElementById("myDropdown").classList.toggle("show");
+        document.getElementById("myDropdown").classList.toggle("show-menu");
     } else {
         let dropdownElement = document.getElementById("myDropdown");
-        if (dropdownElement.classList.contains("show")) {
-            dropdownElement.classList.toggle("show");
+        if (dropdownElement.classList.contains("show-menu")) {
+            dropdownElement.classList.toggle("show-menu");
         }
     }
 }
@@ -33,8 +33,8 @@ document.querySelectorAll('.example-photo').forEach(el => {
 const disappearAnimation = (entries, observer) => {
     entries.forEach(entry => {
         const dropdown = document.getElementById("myDropdown")
-        if (dropdown.classList.contains("show")) {
-            dropdown.classList.toggle("show");
+        if (dropdown.classList.contains("show-menu")) {
+            dropdown.classList.toggle("show-menu");
         }
     })
 }

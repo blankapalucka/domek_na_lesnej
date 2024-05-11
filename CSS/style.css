@@ -236,7 +236,7 @@ th {
     transition: z-index 1s, opacity 0.5s linear
 }
 
-.show {
+.show-menu {
     opacity: 0.9;
     z-index: 1;
 }
