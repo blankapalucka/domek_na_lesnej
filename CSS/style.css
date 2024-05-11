@@ -235,7 +235,7 @@ th {
 }
 
 .show {
-    opacity: 1;
+    opacity: 0.9;
     z-index: 1;
 }
 
