@@ -1,37 +1,46 @@
 .footer-flex {
-  display: flex;
-  flex-wrap: row;
-  justify-content: space-around;
-  text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
 }
 
 
 .footer {
-  /* position: fixed; */
-  font-family: 'Nunito', sans-serif;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color:#6f4f33;
-  color: white;
-  text-align: left;
-  padding: 40px;
-  margin-top:30px;
+    font-family: 'Nunito', sans-serif;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6f4f33;
+    color: white;
+    text-align: left;
+    padding: 40px;
+    margin-top: 30px;
 }
 
 
 .footer-regulamin {
-
-  left: 0;
-  bottom: 0;
-   background-color: #6f4f33;
-  color: white;
-  text-align: left;
-  font-family:  'Nunito', sans-serif;
-  padding-left: 100px;
+    left: 0;
+    bottom: 0;
+    background-color: #6f4f33;
+    color: white;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 100px;
 }
 
 .socials {
-  /* margin-top: 20px; */
-  text-align: left;
+    text-align: left;
+}
+
+.footer-flex a {
+    color: white;
+}
+
+.footer-flex a:visited {
+    color: white;
+}
+
+.footer-flex a:hover {
+    color: white;
 }
