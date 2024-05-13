@@ -8,4 +8,6 @@ smartresize() {
 
 # Usage:
 # > source scripts/.smartresize.sh
-# smartresize inputfile.png 300 outputdir/
+# smartresize inputfile.png 800 jpg/
+
+## INFO: size parameter represents "width" of the target image
