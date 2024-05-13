@@ -90,8 +90,8 @@ h2 {
 
 
 .background {
-    /* background-image: url(/pictures/20230723_103230.jpg); */
-    background-image: url(../pictures/background.jpg);
+    /* background-image: url(/pictures/jpg/20230723_103230.jpg); */
+    background-image: url(../pictures/jpg/background.jpg);
     height: 100%;
     /* position: relative;
     top:0; */
