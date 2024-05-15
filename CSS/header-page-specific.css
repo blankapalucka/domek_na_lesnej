@@ -9,3 +9,17 @@ header.header {
 div.hamburger-menu {
     background-color: black;
 }
+
+/* a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  } */
