@@ -75,6 +75,11 @@ h2 {
 .hamburger {
     align-self: stretch;
     padding-top: 35px;
+    
+}
+
+.hamburger, .hamburger-menu {
+    cursor: pointer;
 }
 
 .hamburger-menu {
