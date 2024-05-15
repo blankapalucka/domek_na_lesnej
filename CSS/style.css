@@ -384,3 +384,18 @@ div.scroll-container img {
 .margin-top-default {
     margin-top: 50px;
 }
+
+.margin-top-small {
+    margin-top: 25px;
+}
+
+.page-content {
+    margin: 0 20%;
+}
+
+@media only screen and (max-width: 768px) {
+    .page-content {
+        margin: 0 5%;
+    }
+}
+
