@@ -1,16 +1,4 @@
-
-// // Open/Close the dropdown menu if the user clicks on it or outside of it
-window.onclick = function (event) {
-    if (event.target.matches('.hamburger') || event.target.matches('.hamburger-menu')) {
-        document.getElementById("myDropdown").classList.toggle("show-menu");
-    } else {
-        let dropdownElement = document.getElementById("myDropdown");
-        if (dropdownElement.classList.contains("show-menu")) {
-            dropdownElement.classList.toggle("show-menu");
-        }
-    }
-}
-
+// ----------------- Image animation related scripts -----------------
 const startAnimation = (entries, observer) => {
     entries.forEach(entry => {
         if (entry.target.classList.contains("animateTopDown") && !entry.target.classList.contains("myImgTopDown")) {
@@ -28,6 +16,20 @@ const options = {root: null, rootMargin: '0px', threshold: 1};
 document.querySelectorAll('.example-photo').forEach(el => {
     observer.observe(el, options);
 });
+// ------------ End of Image animation related scripts -------
+
+// ----------------- Hamburger menu related scripts -----------------
+// // Open/Close the dropdown menu if the user clicks on it or outside of it
+window.onclick = function (event) {
+    if (event.target.matches('.hamburger') || event.target.matches('.hamburger-menu')) {
+        document.getElementById("myDropdown").classList.toggle("show-menu");
+    } else {
+        let dropdownElement = document.getElementById("myDropdown");
+        if (dropdownElement.classList.contains("show-menu")) {
+            dropdownElement.classList.toggle("show-menu");
+        }
+    }
+}
 
 // Disappear hamburger menu when scrolled down
 const disappearAnimation = (entries, observer) => {
@@ -42,6 +44,7 @@ const hamburgerIntersectionObserver = new IntersectionObserver(disappearAnimatio
 document.querySelectorAll("div.o-nas").forEach(el => {
     hamburgerIntersectionObserver.observe(el, options);
 })
+// ----------------- End of Hamburger menu related scripts ----------
 
 // ----------------- Gallery related scripts -----------------
 // Open the Modal
@@ -81,8 +84,8 @@ function showSlides(n) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
     var previousSlideIndex = slideIndex-1;
-    slides[previousSlideIndex].style.display = "block";
     if (dots[previousSlideIndex] !== undefined) {
+        slides[previousSlideIndex].style.display = "block";
         dots[previousSlideIndex].className += " active";
         captionText.innerHTML = dots[previousSlideIndex].alt;
     }
