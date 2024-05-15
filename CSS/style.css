@@ -270,14 +270,32 @@ th {
 /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
-    padding: 16px;
     text-decoration: none;
+
+    padding: 16px;
     display: block;
+}
+
+.dropdown-content a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-content a:visited {
+    color: black;
+    text-decoration: none;
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
+    color: black;
     background-color: #ddd;
+    text-decoration: none;
+}
+
+.dropdown-content a:active {
+    color: black;
+    text-decoration: none;
 }
 
 .okoliczne-atrakcje-flex {

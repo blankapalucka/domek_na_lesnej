@@ -54,13 +54,25 @@
 }
 
 button > a {
+    color: black;
+    text-decoration: none;
+}
+button > a:link {
+    color: black;
     text-decoration: none;
 }
 
-button > a:visited{
+button > a:visited {
     color: black;
+    text-decoration: none;
 }
 
 button > a:hover {
     color:black;
+    text-decoration: none;
+}
+
+button > a:hover {
+    color:black;
+    text-decoration: none;
 }
