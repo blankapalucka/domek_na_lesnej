@@ -8,6 +8,7 @@
 @import url('./cennik.css');
 @import url('./modal.css');
 @import url('./footer.css');
+@import url('./subpages.css');
 
 html, body {
     margin: 10px;
