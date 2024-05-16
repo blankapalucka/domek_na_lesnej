@@ -84,10 +84,8 @@ function showSlides(n) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
     var previousSlideIndex = slideIndex-1;
-    if (dots[previousSlideIndex] !== undefined) {
-        slides[previousSlideIndex].style.display = "block";
-        dots[previousSlideIndex].className += " active";
-        captionText.innerHTML = dots[previousSlideIndex].alt;
-    }
+    slides[previousSlideIndex].style.display = "block";
+    dots[previousSlideIndex].className += " active";
+    captionText.innerHTML = dots[previousSlideIndex].alt;
 }
 // ----------------- Gallery related scripts End -----------------
