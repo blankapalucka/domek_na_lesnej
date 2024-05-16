@@ -276,7 +276,7 @@ th {
 
 @media only screen and (max-width: 786px) {
     .dropdown-content {
-        max-width: 50%;
+        width: 70%;
     }
 }
 
