@@ -37,6 +37,11 @@
     text-align: left;
 }
 
+.footer_socials_size {
+    max-width: 35px;
+    max-height: 35px;
+}
+
 .footer-flex a {
     color: white;
     text-decoration: none;
