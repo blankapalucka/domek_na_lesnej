@@ -1,12 +1,11 @@
-/* .cennik {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-} */
-
-.cennik{
-    max-width: 30%;
+.cennik {
+    max-width: 50%;
     margin: auto;
     margin-top: 30px;
+}
+
+@media only screen and (max-width: 786px) {
+    .cennik {
+        max-width: 100%;
+    }
 }
