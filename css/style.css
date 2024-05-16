@@ -32,7 +32,12 @@ h2 {
 
 #section-2 {
     padding-top: 100px;
-    min-height: 400px;
+}
+
+@media only screen and (max-width: 786px) {
+    #section-2 {
+        padding-top: 1vh;
+    }
 }
 
 .header {
@@ -40,11 +45,9 @@ h2 {
     flex-direction: row;
     justify-content: space-around;
     height: 100px;
-    /* padding-top: 50px; */
     width: 100%;
     font-size: 100px;
     color: white;
-    /* position: fixed; */
     top: 0;
     text-align: center;
     font-family: 'Nunito', sans-serif;
@@ -148,14 +151,25 @@ a:link {
 .zdjecia-o-nas-item {
     max-width: 25%;
     display: inline-block;
-    padding: 0%;
+    padding: 0;
+}
 
+@media only screen and (max-width: 786px) {
+    .zdjecia-o-nas-item {
+        max-width: 33%;
+    }
 }
 
 .zdjecia-o-nas-item2 {
     max-width: 25%;
     display: inline-block;
-    padding: 0%;
+    padding: 0;
+}
+
+@media only screen and (max-width: 786px) {
+    .zdjecia-o-nas-item2 {
+        max-width: 50%;
+    }
 }
 
 .okoliczne-atrakcje {
@@ -163,10 +177,16 @@ a:link {
     background-color: #f9f8f2;;
 }
 
+@media only screen and (max-width: 786px) {
+    .okoliczne-atrakcje {
+        padding-top: 1vh;
+    }
+}
+
 .o-nas-druga-czesc {
     margin-top: 20px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 1.3rem;
 
 }
 
@@ -181,8 +201,7 @@ a:link {
 }
 
 .o-nas-opis {
-    /* max-width: 80%; */
-    font-size: 20px;
+    font-size: 1.3rem;
     margin-bottom: 2px;
 
 }
@@ -191,7 +210,6 @@ a:link {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-
     padding-right: 30px;
 }
 
@@ -207,7 +225,6 @@ a:link {
     font-size: 30px;
     text-align: center;
 }
-
 
 .feature {
     font-size: 15px;
@@ -248,10 +265,9 @@ th {
     background-color: #f9f8f2;
     opacity: 0;
 
-    /*min-width: 400px;*/
     width: 30%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    font-size: 20px;
+    font-size: 1.3rem;
 
     font-family: 'Nunito', sans-serif;
     z-index: -1;
@@ -304,7 +320,6 @@ th {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /*gap: 10px;*/
     gap: 5%;
     justify-content: space-around;
     background-color: #f9f8f2;
