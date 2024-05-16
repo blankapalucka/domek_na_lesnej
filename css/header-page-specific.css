@@ -8,25 +8,24 @@ header.header {
 
 div.hamburger-menu {
     background-color: black;
-    
 }
 
 .title a:link {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 
 .title a:visited {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 
-.title  a:hover {
-  text-decoration: none;
-  color: black;
+.title a:hover {
+    text-decoration: none;
+    color: black;
 }
 
-.title  a:active {
-  text-decoration: none;
-  color: black;
+.title a:active {
+    text-decoration: none;
+    color: black;
 }

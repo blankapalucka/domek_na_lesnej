@@ -1,22 +1,28 @@
 .domek-paragraf {
     margin-top: 50px;
     margin-bottom: 50px;
-    text-align: center;
     font-family: 'Alegreya', serif;
     font-size: 20px;
     text-align: justify;
 }
 
-.zdjęcia-domek {
+.zdjecia-domek {
     display: flex;
-   justify-content: center;
+    justify-content: center;
 }
 
-.zdjęcia-domek-item{
+.zdjecia-domek-item {
     max-height: 10%;
-    /* max-width: 25%; */
     display: inline-block;
-    padding: 0%;
+    padding: 0;
+}
+
+@media only screen and (max-width: 640px) {
+    .zdjecia-domek {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .domek-opis-i-zdjecia {
@@ -28,15 +34,24 @@
     font-size: 20px;
 }
 
-.domek-i-opis-item{
-    width:50%;
+.domek-i-opis-item {
+    width: 50%;
     text-align: center;
-    
 }
 
-.domek-buttons{
-    text-align: center;
+@media only screen and (max-width: 640px) {
+    .domek-opis-i-zdjecia {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .domek-i-opis-item {
+        width: 100%;
+    }
+}
+
+.domek-buttons {
+    text-align: center;
 }
 
 .no-margin-top {
