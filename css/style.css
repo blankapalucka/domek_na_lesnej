@@ -20,7 +20,7 @@ html, body {
 h2 {
     text-align: left;
     font-family: 'Pecita';
-    font-size: 60px;
+    font-size: 4rem;
 }
 
 #section-1 {
@@ -47,7 +47,6 @@ h2 {
     /* position: fixed; */
     top: 0;
     text-align: center;
-    font-family: 'Inter', sans-serif;
     font-family: 'Nunito', sans-serif;
     background-color: transparent;
     border-bottom: solid;
@@ -57,8 +56,7 @@ h2 {
 .title {
     align-self: center;
     color: white;
-    font-size: 50px;
-    /* font-family: 'Alegreya';  */
+    font-size: 3.5rem;
 }
 
 .title-nunito {
@@ -70,31 +68,30 @@ h2 {
 .title a:link {
     text-decoration: none;
     color: white;
-  }
+}
 
-  a:link {
+a:link {
     text-decoration: none;
-  }
-  
-  .title a:visited {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .title  a:hover {
+}
+
+.title a:visited {
     text-decoration: none;
     color: white;
-  }
-  
-  .title  a:active {
+}
+
+.title a:hover {
     text-decoration: none;
     color: white;
-  }
+}
+
+.title a:active {
+    text-decoration: none;
+    color: white;
+}
 
 .hamburger {
     align-self: stretch;
     padding-top: 35px;
-    
 }
 
 .hamburger, .hamburger-menu {
@@ -108,16 +105,11 @@ h2 {
     margin: 6px 0;
 }
 
-#map {
-    height: 100%;
-}
-
 .background {
     background-image: url(../assets/images/jpg/background.jpg);
     height: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
-
 }
 
 .scroll-link {
@@ -191,7 +183,7 @@ h2 {
 .o-nas-opis {
     /* max-width: 80%; */
     font-size: 20px;
-    margin-bottom:2px;
+    margin-bottom: 2px;
 
 }
 
@@ -256,13 +248,20 @@ th {
     background-color: #f9f8f2;
     opacity: 0;
 
-    min-width: 400px;
+    /*min-width: 400px;*/
+    width: 30%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     font-size: 20px;
 
     font-family: 'Nunito', sans-serif;
     z-index: -1;
     transition: z-index 1s, opacity 0.5s linear
+}
+
+@media only screen and (max-width: 786px) {
+    .dropdown-content {
+        max-width: 50%;
+    }
 }
 
 .show-menu {
