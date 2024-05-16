@@ -5,7 +5,6 @@
     text-align: left;
 }
 
-
 .footer {
     font-family: 'Nunito', sans-serif;
     left: 0;
@@ -18,11 +17,6 @@
     margin-top: 30px;
 }
 
-.footer_socials_size{
-    max-width: 35;
-    max-height: 35;
-}
-
 .footer-regulamin {
     left: 0;
     bottom: 0;
@@ -30,14 +24,13 @@
     color: white;
     text-align: left;
     font-family: 'Nunito', sans-serif;
-    padding-left: 100px;
 }
 
 .socials {
     text-align: left;
 }
 
-.footer_socials_size {
+.footer__socials--medium {
     max-width: 35px;
     max-height: 35px;
 }
