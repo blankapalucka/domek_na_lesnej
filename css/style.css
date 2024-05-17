@@ -502,7 +502,7 @@ div.scroll-container img {
 
 @media only screen and (max-width: 640px) {
     button.button1 {
-        top: 9vh !important;
+        top: 8vh !important;
 
         font-size: 0.9em;
         right: 3%;
@@ -512,5 +512,23 @@ div.scroll-container img {
 
     .header-item {
         min-width: 20%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header-link {
+        font-size: 0.5em !important;
+    }
+    button.button1 {
+        top: 9vh !important;
+
+        font-size: 0.8em;
+        right: 5%;
+
+        padding: 10px 10px;
+    }
+
+    .header-item {
+        min-width: 25%;
     }
 }
