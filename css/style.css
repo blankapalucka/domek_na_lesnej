@@ -118,9 +118,17 @@ a:link {
 
 .background {
     background-image: url(../assets/images/jpg/background.jpg);
-    height: 100%;
+    height: 1024px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: center center;
+    background-color: transparent;
+    background-attachment: scroll;
+}
+
+@media only screen and (min-width: 1400px) {
+    .background {
+        background-size: 100%;
+    }
 }
 
 .scroll-link {
