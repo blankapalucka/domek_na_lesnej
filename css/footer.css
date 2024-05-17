@@ -47,3 +47,8 @@
 .footer-flex a:visited {
     color: white;
 }
+
+.socials a:hover {
+    color: transparent;
+    text-decoration: none;
+}
