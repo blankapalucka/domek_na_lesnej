@@ -374,7 +374,7 @@ th {
 }
 
 .okoliczne-atrakcje-tytuł {
-    text-align: center;
+    text-align: left;
     padding-left: 40px;
     font-family: 'Nunito', serif;
     background-color: #f9f8f2;;
@@ -480,6 +480,6 @@ div.scroll-container img {
 }
 
 .dla-dzieci__img {
-    width: 600px;
-    height: 400px;
+    width: 480px;
+    height: 320px;
 }
