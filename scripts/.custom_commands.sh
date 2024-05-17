@@ -38,3 +38,4 @@ function smartresizeall() {
 
 ## Example usage:
 #> smartresizeall jpg 800 jpg/
+#> smartresizeall jpg 1080 jpg/
