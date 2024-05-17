@@ -71,7 +71,7 @@ h2 {
 
 .title-nunito {
     font-family: 'Nunito', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     padding-left: 40px;
 }
 
@@ -353,7 +353,7 @@ th {
     font-family: 'Nunito', serif;
     background-color: #f9f8f2;;
     margin-bottom: 0px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 
@@ -446,8 +446,8 @@ div.scroll-container img {
 }
 
 .okoliczne-atrakcje__img {
-    width: 600px;
-    height: 400px;
+    width: 358px;
+    height: 268px;
 }
 
 @media only screen and (max-width: 768px) {
