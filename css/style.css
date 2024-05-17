@@ -341,10 +341,36 @@ th {
     background-color: #f9f8f2;
 }
 
+@media only screen and (max-width: 640px) {
+    .okoliczne-atrakcje-flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 10%;
+    }
+}
+
 .atrakcja {
     flex: 0 0 30%;
     max-width: 400px;
     font-family: 'Alegreya', serif;
+}
+
+.atrakcja-margines {
+    margin-top: 35px;
+}
+
+@media only screen and (max-width: 640px) {
+    .atrakcja-margines {
+        margin-top: 0;
+    }
+
+    .atrakcja {
+        margin-top: 30px;
+    }
+
+    .empty-div {
+        display: none;
+    }
 }
 
 .okoliczne-atrakcje-tytuł {
@@ -404,10 +430,6 @@ div.scroll-container img {
 .time {
     margin-left: 20px;
     padding-top: 5px;
-}
-
-.atrakcja-margines {
-    margin-top: 35px;
 }
 
 .empty-div {
