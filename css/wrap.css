@@ -1,30 +1,25 @@
 .img__wrap {
     position: relative; 
-    /* height: 200px;
-    width: 257px; */
 }
 
 .img__description {
     position: absolute;
-    top: -400px;
+    top: -315px;
     bottom: 0;
-    /* left: 10px; */
-    /* right: 10px; */
-right: 0;
-left: 0;
+    left: 10px;
     margin: 0;
-    width: 600px; 
-    height: 400px;
-    /* padding: 20px; */
+    width: 460px;
+    height: 300px;
     padding: 10px;
     background: rgb(255, 255, 255, 0.50);
     color: #8f6747;
     font-size: 30px;
     font-weight: 800;
-    vertical-align: text-bottom;
-    /* color: #000; */
     visibility: hidden;
     opacity: 0;
+
+    text-align: center;
+    padding-top: 25%;
 
     /* transition effect. not necessary */
     transition: opacity .2s, visibility .2s;
@@ -34,7 +29,3 @@ left: 0;
     visibility: visible;
     opacity: 1;
 }
-
-/* .img__wrap:hover {
-    background: rgb(255, 255, 255, 0.72);
-} */
